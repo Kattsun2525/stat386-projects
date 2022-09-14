@@ -26,7 +26,7 @@ baseurl: "/stat386-projects" # keep this the same or change it to the name of th
 url: "https://Kattsun2525.github.io" #  change this to "https://<your-github-username>.github.io"
 image: "assets/images/pramod-tiwari-AI-fDmJwNfc-unsplash.jpg"
 author: Katsuhiko Maeda
-copyright: This blog content belongs to Katsuhiko Maeda Your initials or what you want the copyright to be.  Leave empty for no copyright
+copyright: The blog contents belong to Katsuhiko Maeda. I do not guarantee the accuracy of information posted on the blogs.
 
 # Social media users names.  Leave fields blank that you don't want displayed
 twitter_username: 
