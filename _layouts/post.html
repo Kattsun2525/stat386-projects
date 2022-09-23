@@ -29,7 +29,18 @@ layout: default
       <hr style="height:1px;border:none;color:#333;background-color:#333;" />
   </header>
   
- 
+   {%- if site.disqus.shortname -%}
+    {%- include disqus_comments.html -%}
+  {%- endif -%}
+  
+  <script src="https://utteranc.es/client.js"
+        repo="[Kattsun2525/stat386-projects]"
+        issue-term="pathname"
+        label="💬"
+        theme="boxy-light"
+        crossorigin="anonymous"
+        async>
+  </script>
 
   <div class="post-content e-content" itemprop="articleBody">
     {{ content }}
