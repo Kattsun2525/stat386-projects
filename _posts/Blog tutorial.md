@@ -15,6 +15,7 @@ According to NewVantage Partners Big Data and AI Executive Survey 2021, 99% of 8
 ![alt text](/assets/images/AI-Initiative-pie.jpg)
 
 ## 3 major barriers to implementation
+![alt text](/assets/images/challenges.jpg)
 ### Barrier 1: Culture
 The first most common reason why companies have been struggling to become data-driven is culture. According to OO, 92.2% of the surveyed companies mentioned culture as the biggest hurdle to becoming data driven organizations. Becoming a data-driven organization requires much more than just possessing the right technology and strategy. The employees need to be fully aware of the value of harnessing data solutions and capable of making informed decisions based on data analytics tools. In addition, the company should have the right processes and systems to leverage data solutions.
 
@@ -28,6 +29,7 @@ Also, only 33% of the companies in McKinsey Global Survey reported that they hav
 
 
 ## How to overcome the challenges
+![alt text](/assets/images/overcome2.jpg)
 To combat these challenges, companies should take into account the following suggestions from Harvard Business Review:
 1.	**Center data initiatives on business problems that could yield impactful results.** By doing this, c-suite executives will be able to demonstrate the value of harnessing data capabilities and might increase senior leader involvement.
 2.	**Reevaluate the data strategy.** Companies should take into account how data is generated in the whole value chain process and can be merged to improve the process as a whole, rather than focusing on certain areas of business.
