@@ -30,6 +30,7 @@ Also, only 33% of the companies in McKinsey Global Survey reported that they hav
 
 ## How to overcome the challenges
 ![alt text](/assets/images/overcome2.jpg)
+
 To combat these challenges, companies should take into account the following suggestions from Harvard Business Review:
 1.	**Center data initiatives on business problems that could yield impactful results.** By doing this, c-suite executives will be able to demonstrate the value of harnessing data capabilities and might increase senior leader involvement.
 2.	**Reevaluate the data strategy.** Companies should take into account how data is generated in the whole value chain process and can be merged to improve the process as a whole, rather than focusing on certain areas of business.
