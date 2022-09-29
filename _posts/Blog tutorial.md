@@ -26,14 +26,14 @@ Company executives are key to organizational effectiveness at harnessing data an
 Also, only 33% of the companies in McKinsey Global Survey reported that they have adopted Chief Data Officer role successfully, while the role of CDC is not clearly defined or not even established for the rest of the surveyed companies which are more unsuccessful in leveraging data capabilities. 
 
 
-## How to overcome the challenges**
+## How to overcome the challenges
 To combat these challenges, companies need to take into account the following suggestions from Harvard Business Review:
-1.	Center data initiatives on business problems that could yield impactful results. By doing this, c-suite executives will be able to demonstrate the value of harnessing data capabilities and might increase senior leader involvement.
-2.	Reevaluate the data strategy. Companies should take into account how data is generated in the whole value chain process and can be merged to improve the process as a whole, rather than focusing on certain areas of business.
-3.	Long-term commitment to become a data-driven organizatioin. It takes a lot of efforts and time for an entire organization to change and adopt new solutions. Also, leveraging data requires building knowledge and skills over a time because those can be difficult for some people to pick up.
+1.	**Center data initiatives on business problems that could yield impactful results.** By doing this, c-suite executives will be able to demonstrate the value of harnessing data capabilities and might increase senior leader involvement.
+2.	**Reevaluate the data strategy.** Companies should take into account how data is generated in the whole value chain process and can be merged to improve the process as a whole, rather than focusing on certain areas of business.
+3.	**Long-term commitment to become a data-driven organizatioin.** It takes a lot of efforts and time for an entire organization to change and adopt new solutions. Also, leveraging data requires building knowledge and skills over a time because those can be difficult for some people to pick up.
 
 
-## Conclusion**
+## Conclusion
 Dspite the increasing amount of investment in data analytics capabilities, many companies have struggled to incorporate a data-driven culture that permeates through the entire organization. They often lack clarity on their data analytics strategy because of a lower commitment level of their senior management team. This results in having unestablished systems and unskilled employees who are not capable of incorporating data analytics into their daily decision making process. For companies to leverage data effectively, they need to have all the necessary components in place, such as right strategy, people and culture. This requires a long-term commitment and patience but can give companies a huge advantage over competitors who are struggling to become data-driven. 
 
 
