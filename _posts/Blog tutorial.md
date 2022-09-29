@@ -6,6 +6,7 @@ author: Katsuhiko Maeda
 description: This blog explains three major barriers to becoming a data driven organization and practical recommendations to overcome them. 
 image: /assets/images/dataanalysis.jpg
 ---
+
 #3 main reasons why companies struggling to adapt data-driven solutions
 *Katsuhiko Maeda*
 
