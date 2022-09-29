@@ -7,9 +7,8 @@ description: This blog explains three major barriers to becoming a data driven o
 image: /assets/images/dataanalysis.jpg
 ---
 
-#3 main reasons why companies struggling to adapt data-driven solutions
+# 3 main reasons why companies struggling to adapt data-driven solutions
 *Katsuhiko Maeda*
-
 **2 min read**
 
 In 2020, the amount of existing data in the world was estimated to be 44 zettabytes and is projected to be 175 zettabytes by 2025, which is nearly four times more than all the existing data in 2020. Many companies today have pushed themselves to leverage this data opportunity by accelerating digitalization. However, many of them have not been successful in becoming data-driven organizations, meaning they have not leveraged data capabilities to extract insights to make decisions effectively throughout the organization. 
@@ -48,11 +47,11 @@ Dspite the increasing amount of investments in data analytics capabilities, many
 
 
 ### *References*
-https://seedscientific.com/how-much-data-is-created-every-day/
-https://hbr.org/2021/02/why-is-it-so-hard-to-become-a-data-driven-company
-https://c6abb8db-514c-4f5b-b5a1-fc710f1e464e.filesusr.com/ugd/e5361a_76709448ddc6490981f0cbea42d51508.pdf
-https://www.mckinsey.com/capabilities/mckinsey-digital/our-insights/the-need-to-lead-in-data-and-analytics
-https://www.mckinsey.com/capabilities/mckinsey-digital/our-insights/three-keys-to-building-a-data-driven-strategy
+- https://seedscientific.com/how-much-data-is-created-every-day/
+- https://hbr.org/2021/02/why-is-it-so-hard-to-become-a-data-driven-company
+- https://c6abb8db-514c-4f5b-b5a1-fc710f1e464e.filesusr.com/ugd/e5361a_76709448ddc6490981f0cbea42d51508.pdf
+- https://www.mckinsey.com/capabilities/mckinsey-digital/our-insights/the-need-to-lead-in-data-and-analytics
+- https://www.mckinsey.com/capabilities/mckinsey-digital/our-insights/three-keys-to-building-a-data-driven-strategy
 
 
 
