@@ -4,7 +4,9 @@ title:  "3 main reasons why companies struggling to adapt data-driven solutions"
 date:   2022-09-27
 author: Katsuhiko Maeda
 description: This blog explains three major barriers to becoming a data driven organization and practical recommendations to overcome them. 
-image: /assets/images/ron-otsu-xysfalMJYNM-unsplash.jpg
+image: /assets/images/dataanalysis.jpg
+![image](https://user-images.githubusercontent.com/112638940/193060068-08fdf0dc-24f4-44f1-941f-176da3d982ed.png)
+
 ---
 
 # 3 main reasons why companies struggling to adapt data-driven solutions
