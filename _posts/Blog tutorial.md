@@ -34,7 +34,7 @@ To combat these challenges, companies should take into account the following sug
 
 
 ## Conclusion
-Dspite the increasing amount of investment in data analytics capabilities, many companies have struggled to incorporate a data-driven culture that permeates through the entire organization. They often lack clarity on their data analytics strategy because of a lower commitment level of their senior management team. This results in having unestablished systems and unskilled employees who are not capable of incorporating data analytics into their daily decision making process. For companies to leverage data effectively, they need to have all the necessary components in place, such as right strategy, people and culture. This requires a long-term commitment and patience but can give companies a huge advantage over competitors who are struggling to become data-driven. 
+Dspite the increasing amount of investments in data analytics capabilities, many companies have struggled to incorporate a data-driven culture that permeates through the entire organization. They often lack clarity on their data analytics strategy because of a lower commitment level of their senior management team. This results in having unestablished systems and unskilled employees who are not capable of incorporating data analytics into their daily decision making process. For companies to leverage data effectively, they need to have all the necessary components in place, such as right strategy, people and culture. This requires a long-term commitment and patience but can give companies a huge advantage over competitors who are struggling to become data-driven. 
 
 
 ### *References*
