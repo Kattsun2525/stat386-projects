@@ -1,9 +1,9 @@
 ---
 layout: post
 title:  "3 main reasons why companies struggling to adapt data-driven solutions"
-date:   2022-06-21
+date:   2022-09-28
 author: Katsuhiko Maeda
-description: Blog tutorial assignment
+description: This blog explains three major barriers to become a data driven organization and practical recommendations to overcome them. 
 image: /assets/images/ron-otsu-xysfalMJYNM-unsplash.jpg
 ---
 In 2020, the amount of existing data in the world was estimated to be 44 zettabytes and is projected to be 175 zettabytes by 2025, which is nearly four times more than all the existing data in 2020(*1). Many companies today have pushed themselves to leverage this data opportunity by accelerating digitalization. However, many of them have not been successful in becoming data-driven organizations, meaning they have not leveraged data capabilities to extract insights to make decisions effectively throughout the organization. 
