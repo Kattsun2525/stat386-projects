@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "3 main reasons why companies struggling to adapt data-driven solutions"
-date:   2022-09-28
+date:   2022-09-27
 author: Katsuhiko Maeda
 description: This blog explains three major barriers to becoming a data driven organization and practical recommendations to overcome them. 
 image: /assets/images/dataanalysis.jfif
