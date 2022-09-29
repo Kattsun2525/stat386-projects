@@ -4,7 +4,7 @@ title:  "3 main reasons why companies struggling to adapt data-driven solutions"
 date:   2022-09-27
 author: Katsuhiko Maeda
 description: This blog explains three major barriers to becoming a data driven organization and practical recommendations to overcome them. 
-image: /assets/images/dataanalysis.jpg
+image: /assets/images/ron-otsu-xysfalMJYNM-unsplash.jpg
 ---
 
 # 3 main reasons why companies struggling to adapt data-driven solutions
@@ -18,6 +18,7 @@ In 2020, the amount of existing data in the world was estimated to be 44 zettaby
 
 ## Data strategies and initiatives often fail despite large investments in data and analytics
 According to NewVantage Partners Big Data and AI Executive Survey 2021, 99% of 85 well-established and leading companies reported that they have actively invested in Big Data and Artificial Intelligence initiatives and nearly 92% of the companies accelerated the investments. Clearly, the trend is that companies have taken the initiatives to leverage increasing amount of data in the world. Only 24% of the participated companies reported they have created a data-driven organization. This demonstrates many companies are not successful in becoming a data-driven organization. This means that companies are committed to data-driven transformation but have been struggling with executing the commitment properly.
+
 ![alt text](/assets/images/AI-Initiative-pie2.jpg)
 
 ## 3 major barriers to implementation
