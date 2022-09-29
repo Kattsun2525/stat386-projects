@@ -18,7 +18,7 @@ According to NewVantage Partners Big Data and AI Executive Survey 2021, 99% of 8
 The first most common reason why companies have been struggling to become data-driven is culture. According to OO, 92.2% of the surveyed companies mentioned culture as the biggest hurdle to becoming data driven organizations. Becoming a data-driven organization requires much more than just possessing the right technology and strategy. The employees need to be fully aware of the value of harnessing data solutions and capable of making informed decisions based on data analytics tools. In addition, the company should have the right processes and systems to leverage data solutions.
 
 ### Barrier 2: Difficulty of attracting and retaining talents
-According to McKinsey Global Survey, many companies find it difficult to both attract and retain analytics talent, especially business users with analytics-related skills. Of the 519 companies in the survey, 48% of them struggle to find the talent and 42% face the problem with talent retention.  
+According to McKinsey Global Survey, many companies find it difficult to both attract and retain analytics talent, especially business users with analytics-related skills. Of the 519 companies in the survey, 48% of them struggle to find the talent and 42% face the talent retention problem.  
 
 ### Barrier 3: Senior leader involvement and lack of clearly defined data strategy
 Company executives are key to organizational effectiveness at harnessing data and analytics capabilities. Without having a clearly articulated data analytics strategy and initiative, companies would not be able to create a data-driven culture that permeates through every division of the company. 
