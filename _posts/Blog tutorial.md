@@ -23,7 +23,7 @@ According to McKinsey Global Survey, many companies find it difficult to both at
 ### Barrier 3: Senior leader involvement and lack of clearly defined data strategy
 Company executives are key to organizational effectiveness at harnessing data and analytics capabilities. Without having a clearly articulated data analytics strategy and initiative, companies would not be able to create a data-driven culture that permeates through every division of the company. 
 
-Also, only 33% of the companies in McKinsey Global Survey reported that they have adopted Chief Data Officer role successfully, while the role of CDC is not clearly defined or not even established for the rest of the surveyed companies which are more unsuccessful in leveraging data capabilities. 
+Also, only 33% of the companies in McKinsey Global Survey reported that they have adopted Chief Data Officer (CDC) role successfully, while the role of CDC is not clearly defined or not even established for the rest of the surveyed companies which are mostly unsuccessful in leveraging data capabilities. 
 
 
 ## How to overcome the challenges
