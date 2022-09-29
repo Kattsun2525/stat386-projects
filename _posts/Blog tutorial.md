@@ -20,7 +20,7 @@ The first most common reason why companies have been struggling to become data-d
 ### Barrier 2: Difficulty of attracting and retaining talents
 According to McKinsey Global Survey, many companies find it difficult to both attract and retain analytics talent, especially business users with analytics-related skills. Of the 519 companies in the survey, 48% of them struggle to find the talent and 42% face the talent retention problem.  
 
-### Barrier 3: Senior leader involvement and lack of clearly defined data strategy
+### Barrier 3: Senior leader involvement and lack of a clearly defined data strategy
 Company executives are key to organizational effectiveness at harnessing data and analytics capabilities. Without having a clearly articulated data analytics strategy and initiative, companies would not be able to create a data-driven culture that permeates through every division of the company. 
 
 Also, only 33% of the companies in McKinsey Global Survey reported that they have adopted Chief Data Officer (CDC) role successfully, while the role of CDC is not clearly defined or not even established for the rest of the surveyed companies which are mostly unsuccessful in leveraging data capabilities. 
