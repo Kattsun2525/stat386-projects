@@ -25,23 +25,17 @@ For the first step, we need to check if scraping data off the website we am goin
 ## Step2: Data collection
 For data collection, I used requests.get and pd.read_html() functions. After downloading pandas, you will be able to read tables from a website by passing the URL to the read_html function.
 
-
-<code>import pandas as pd<div>import requests</div></code>
-
-
 <div id="container">
- <div id="label">
   <p style="padding: 10px; border: 2px solid red;">
    <code> 
-   <div>import pandas as pd</div>
+   import pandas as pd</div>
    <div>import requests</div>
    <div>url_link='https://finance.yahoo.com/quote/NFLX/history?period1=1350777600&period2=1666310400&interval=1wk&filter=history&frequency=1wk&includeAdjustedClose=true'</div>
    <div>r = requests.get(url_link,headers = {'User-Agent':'Mozilla/5.0'})</div>
    <div>netflix_stock = pd.read_html(r.text)[0]</div>
-   <div>netflix_stock = netflix_stock.drop(netflix_stock.index[[100, 201, 302, 382, 403, 504, 528]])</div>
+   <div>netflix_stock = netflix_stock.drop(netflix_stock.index[[100, 201, 302, 382, 403, 504, 528]])
    </code>
   </p>
- </div>
 </div>
 
 <p>What is tricky about getting stock data from the Yahoo Finance website is that it does not allow us to retrieve the whole chart at one time. Instead, I had to adjust the data range to get a comprehensive list of stock quotes from a different webpage.
