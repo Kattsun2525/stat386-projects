@@ -38,9 +38,13 @@ netflix_stock = netflix_stock.drop(netflix_stock.index[[100, 201, 302, 382, 403,
 <p>What is tricky about getting stock data from the Yahoo Finance website is that it does not allow us to retrieve the whole chart at one time. Instead, I had to adjust the data range to get a comprehensive list of stock quotes from a different webpage.
 For this reason, I had to change the URL slightly each time I scraped a part of the whole list from the website. Luckily, the only part of the URL that I needed to change were the numbers highlighted below. However, the numbers were not in chronological order so I needed to manually type in the specific numbers that corresponded to the web page. For example, some of the URL number sequences would change by 60220800, 59875200 or 60480000. Everything else stays the same for each URL.</p>
 
+<img src="https://github.com/Kattsun2525/stat386-projects/raw/main/assets/images/Page_URL_num.png" alt="" style="width:400px;"/>
+
 Below is an excerpt of the for-loop I used to get data from each page. I specified the value of the number decrease from page to page and combined it with the rest of the URL. Then, I used the append function to add the new data to my dataframe by running the last line of code below:
  
 Below are the first five entries of the resulting table:
+
+<img src="https://github.com/Kattsun2525/stat386-projects/raw/main/assets/images/dataframe_head.png" alt="" style="width:400px;"/>
  
 ## Step 3: Data cleaning process
 Fortunately, the table data is very organized and does not have to be modified much for the next data analysis process. Below are the two steps that I went through to prepare the scraped data to be ready for stock analysis.
@@ -54,6 +58,8 @@ Fortunately, the table data is very organized and does not have to be modified m
 <p>I modified the original date format to the following format and set the date column as an index. This helps us when you want to visualize movement of the stock prices in graphs.</p>
 
 <code>netflix_stock["Date2"] = [dt.strptime(i, "%b %d,  %Y") for i in netflix_stock["Date"]]<div>netflix_stock.set_index("Date2",inplace=True)</div></code>
+
+<img src="https://github.com/Kattsun2525/stat386-projects/raw/main/assets/images/date_column.png" alt="" style="width:100px;"/>
 
 # Conclusion
 In this post, I explained how you can scrape Netflix’s stock data from Yahoo Finance and clean the data to analyze its stock performance. I am excited to conduct analysis on the cleaned data and tell you what we can say from the stock data in the next blog. Meanwhile, feel free to leave your comments below if you have any questions or suggestions.
