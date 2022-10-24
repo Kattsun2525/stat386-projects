@@ -43,7 +43,8 @@ Irrelevant rows were added to the last row of netflix_stock dataframe everytime 
 
 ## > Step 3-2: Change date format for analysis purpose
 I modified the original date format to the following format. This helps us when you want to visualize movement of the stock prices in graphs. 
-
+<code> netflix_stock["Date2"] = [dt.strptime(i, "%b %d,  %Y") for i in netflix_stock["Date"]], 
+ netflix_stock.set_index("Date2",inplace=True) </code>
 
 # Conclusion
 In this post, I explained how you can scrape Netflix’s stock data from Yahoo Finance and clean the data to analyze its stock performance. I am excited to conduct analysis on the cleaned data and tell you what we can say from the stock data in the next blog. Meanwhile, feel free to leave your comments below if you have any questions or suggestions.
