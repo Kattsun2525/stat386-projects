@@ -42,7 +42,7 @@ For this reason, I had to change the URL slightly each time I scraped a part of 
 
 Below is an excerpt of the for-loop I used to get data from each page. I specified the value of the number decrease from page to page and combined it with the rest of the URL. Then, I used the append function to add the new data to my dataframe by running the last line of code below:
 
-------------
+<div class="highlight"><code> 
 url_bef_num = 'https://finance.yahoo.com/quote/NFLX/history?period1=1350777600&period2='
 url_aft_num = '&interval=1wk&filter=history&frequency=1wk&includeAdjustedClose=true'
 num = 1666310400
@@ -65,7 +65,8 @@ for i in range(2,7):
     r = requests.get(url_link,headers = {'User-Agent':'Mozilla/5.0'})
     print(url_link)
     netflix_stock = netflix_stock.append(pd.read_html(r.text)[0], ignore_index=True)
---------------
+</code>
+</div>
  
 Below are the first five entries of the resulting table:
 
