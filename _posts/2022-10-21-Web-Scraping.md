@@ -33,12 +33,12 @@ For data collection, I used requests.get and pd.read_html() functions. After dow
  <div id="label">
   <p style="padding: 10px; border: 2px solid red;">
    <code> 
-    <div>import pandas as pd</div>
-    <div>import requests</div>
-    <div>url_link='https://finance.yahoo.com/quote/NFLX/history?period1=1350777600&period2=1666310400&interval=1wk&filter=history&frequency=1wk&includeAdjustedClose=true'</div>
-    <div>r = requests.get(url_link,headers = {'User-Agent':'Mozilla/5.0'})</div>
-    <div>netflix_stock = pd.read_html(r.text)[0]</div>
-    <div>netflix_stock = netflix_stock.drop(netflix_stock.index[[100, 201, 302, 382, 403, 504, 528]])</div>
+   <div>import pandas as pd</div>
+   <div>import requests</div>
+   <div>url_link='https://finance.yahoo.com/quote/NFLX/history?period1=1350777600&period2=1666310400&interval=1wk&filter=history&frequency=1wk&includeAdjustedClose=true'</div>
+   <div>r = requests.get(url_link,headers = {'User-Agent':'Mozilla/5.0'})</div>
+   <div>netflix_stock = pd.read_html(r.text)[0]</div>
+   <div>netflix_stock = netflix_stock.drop(netflix_stock.index[[100, 201, 302, 382, 403, 504, 528]])</div>
    </code>
   </p>
  </div>
