@@ -39,6 +39,7 @@ Fortunately, the table data is very organized and does not have to be modified m
 ## > Step 3-1: Remove irrelevant rows
 Irrelevant rows were added to the last row of netflix_stock dataframe everytime I attached new stock data in the for-loop. I removed them by referring to the index numbers:
 
+<code> netflix_stock = netflix_stock.drop(netflix_stock.index[[100, 201, 302, 382, 403, 504, 528]]) </code>
 
 ## > Step 3-2: Change date format for analysis purpose
 I modified the original date format to the following format. This helps us when you want to visualize movement of the stock prices in graphs. 
