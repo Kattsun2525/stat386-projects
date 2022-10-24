@@ -7,6 +7,7 @@ description: In this blog post, you will learn how to scrape and clean stock pri
 image: /assets/images/header_netflix_pic.png
 ---
 <img src="https://github.com/Kattsun2525/stat386-projects/raw/main/assets/images/Top_pic_stock.jpg" alt="" style="width:800px;"/>
+
 # Introduction
 Netflix’s growth has been rapid over the last 10 years, and has become one of the most successful subscription companies in the world. Their business continued to grow during COVID-19 as many people spent the majority of their time at home. However, many investors have questioned the company’s lasting strength and stability. Three major threats to Netflix’s market share include their account sharing problems, the entry of Disney+, and the significant drop in subscribers after viewers returned to normal activities.
  
