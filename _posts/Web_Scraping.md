@@ -36,7 +36,7 @@ Below are the first five entries of the resulting table:
 ## Step 3: Data cleaning process
 Fortunately, the table data is very organized and does not have to be modified much for the next data analysis process. Below are the two steps that I went through to prepare the scraped data to be ready for stock analysis.
 
-**Step 3-1: Remove irrelevant rows****
+**Step 3-1: Remove irrelevant rows**
 <p>Irrelevant rows were added to the last row of netflix_stock dataframe everytime I attached new stock data in the for-loop. I removed them by referring to the index numbers:</p>
 
 <code> netflix_stock = netflix_stock.drop(netflix_stock.index[[100, 201, 302, 382, 403, 504, 528]]) </code>
