@@ -19,7 +19,9 @@ There are many financial metrics to evaluate a company’s performance such as t
 # Data collection and cleaning
 ## Step 1: Ethical and legal considerations
 For the first step, we need to check if scraping data off the website we am going to use is legal. The website I acquired Netflix’s stock prices from is called Yahoo Finance. They provide information like real-time market data and stock quotes for public companies. In my case, I determined that web scraping in the website is both ethical and legal for two reasons. First, the stock information on the website is open-source and publicly available. They also let you download a csv file of stock prices in your desired range of dates. Second, I was not able to locate information in their terms and conditions on whether or not scraping data is prohibited.
- 
+
+<img src="https://github.com/Kattsun2525/stat386-projects/raw/main/assets/images/yahoo_finance.png" alt="" style="width:300px;"/>
+
 ## Step2: Data collection
 For data collection, I used requests.get and pd.read_html() functions. After downloading pandas, you will be able to read tables from a website by passing the URL to the read_html function.
 
