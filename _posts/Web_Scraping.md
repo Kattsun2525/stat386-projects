@@ -41,6 +41,31 @@ For this reason, I had to change the URL slightly each time I scraped a part of 
 <img src="https://github.com/Kattsun2525/stat386-projects/raw/main/assets/images/Page_URL_num.png" alt="" style="width:400px;"/>
 
 Below is an excerpt of the for-loop I used to get data from each page. I specified the value of the number decrease from page to page and combined it with the rest of the URL. Then, I used the append function to add the new data to my dataframe by running the last line of code below:
+
+------------
+url_bef_num = 'https://finance.yahoo.com/quote/NFLX/history?period1=1350777600&period2='
+url_aft_num = '&interval=1wk&filter=history&frequency=1wk&includeAdjustedClose=true'
+num = 1666310400
+
+for i in range(2,7):
+    # For the second page of stock quotes, the number before '&interval' in the URL increases by 60220800
+    if i == 2:
+        num = num - 60220800
+        print("i is 2")
+    # For the fifth page of stock quotes, the number before '&interval' in the URL increases by 59875200
+    elif i == 5:
+        num = num - 59875200
+        print("i is 5")
+    # For the other n-th page of stock quotes, the number before '&interval' in the URL increases by 60480000
+    else:
+        num = num - 60480000
+        print("i is else")
+    
+    url_link = url_bef_num + str(num) + url_aft_num
+    r = requests.get(url_link,headers = {'User-Agent':'Mozilla/5.0'})
+    print(url_link)
+    netflix_stock = netflix_stock.append(pd.read_html(r.text)[0], ignore_index=True)
+--------------
  
 Below are the first five entries of the resulting table:
 
@@ -52,6 +77,7 @@ Fortunately, the table data is very organized and does not have to be modified m
 **Step 3-1: Remove irrelevant rows**
 <p>Irrelevant rows were added to the last row of netflix_stock dataframe everytime I attached new stock data in the for-loop. I removed them by referring to the index numbers:</p>
 
+<code class=”language-plaintext highlighter-rouge”>netflix_stock = netflix_stock.drop(netflix_stock.index[[100, 201, 302, 382, 403, 504, 528]])</code>
 <code> netflix_stock = netflix_stock.drop(netflix_stock.index[[100, 201, 302, 382, 403, 504, 528]]) </code>
 
 **Step 3-2: Change date format for analysis purpose**
