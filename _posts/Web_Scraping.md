@@ -25,9 +25,18 @@ For the first step, we need to check if scraping data off the website we am goin
 ## Step2: Data collection
 For data collection, I used requests.get and pd.read_html() functions. After downloading pandas, you will be able to read tables from a website by passing the URL to the read_html function.
 
-
-What is tricky about getting stock data from the Yahoo Finance website is that it does not allow us to retrieve the whole chart at one time. Instead, I had to adjust the data range to get a comprehensive list of stock quotes from a different webpage.
-For this reason, I had to change the URL slightly each time I scraped a part of the whole list from the website. Luckily, the only part of the URL that I needed to change were the numbers highlighted below. However, the numbers were not in chronological order so I needed to manually type in the specific numbers that corresponded to the web page. For example, some of the URL number sequences would change by 60220800, 59875200 or 60480000. Everything else stays the same for each URL.
+<div class="highlight"><code> 
+import pandas as pd
+import requests
+url_link='https://finance.yahoo.com/quote/NFLX/history?period1=1350777600&period2=1666310400&interval=1wk&filter=history&frequency=1wk&includeAdjustedClose=true'
+r = requests.get(url_link,headers = {'User-Agent':'Mozilla/5.0'})
+netflix_stock = pd.read_html(r.text)[0]
+netflix_stock = netflix_stock.drop(netflix_stock.index[[100, 201, 302, 382, 403, 504, 528]]) 
+</code>
+</div>
+ 
+<p>What is tricky about getting stock data from the Yahoo Finance website is that it does not allow us to retrieve the whole chart at one time. Instead, I had to adjust the data range to get a comprehensive list of stock quotes from a different webpage.
+For this reason, I had to change the URL slightly each time I scraped a part of the whole list from the website. Luckily, the only part of the URL that I needed to change were the numbers highlighted below. However, the numbers were not in chronological order so I needed to manually type in the specific numbers that corresponded to the web page. For example, some of the URL number sequences would change by 60220800, 59875200 or 60480000. Everything else stays the same for each URL.</p>
 
 Below is an excerpt of the for-loop I used to get data from each page. I specified the value of the number decrease from page to page and combined it with the rest of the URL. Then, I used the append function to add the new data to my dataframe by running the last line of code below:
  
