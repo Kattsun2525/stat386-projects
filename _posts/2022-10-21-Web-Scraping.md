@@ -91,7 +91,6 @@ netflix_stock.set_index("Date2",inplace=True)
 ```
 <img src="https://github.com/Kattsun2525/stat386-projects/raw/main/assets/images/date_column.png" alt="" style="width:100px;"/>
 
-<br>
 # Conclusion
 In this post, I explained how you can scrape Netflix’s stock data from Yahoo Finance and clean the data to analyze its stock performance. I am excited to conduct analysis on the cleaned data and tell you what we can say from the stock data in the next blog. Meanwhile, feel free to leave your comments below if you have any questions or suggestions.
  
