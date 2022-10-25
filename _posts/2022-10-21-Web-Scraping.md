@@ -77,13 +77,18 @@ Fortunately, the table data is very organized and does not have to be modified m
 **Step 3-1: Remove irrelevant rows**
 <p>Irrelevant rows were added to the last row of netflix_stock dataframe everytime I attached new stock data in the for-loop. I removed them by referring to the index numbers:</p>
 
-<code>netflix_stock = netflix_stock.drop(netflix_stock.index[[100, 201, 302, 382, 403, 504, 528]])<div>netflix_stock = netflix_stock.drop(netflix_stock.index[[100, 201, 302, 382, 403, 504, 528]])</div></code>
+```
+netflix_stock = netflix_stock.drop(netflix_stock.index[[100, 201, 302, 382, 403, 504, 528]])
+netflix_stock = netflix_stock.drop(netflix_stock.index[[100, 201, 302, 382, 403, 504, 528]])
+```
 
 **Step 3-2: Change date format for analysis purpose**
 <p>I modified the original date format to the following format and set the date column as an index. This helps us when you want to visualize movement of the stock prices in graphs.</p>
 
-<code>netflix_stock["Date2"] = [dt.strptime(i, "%b %d,  %Y") for i in netflix_stock["Date"]]<div>netflix_stock.set_index("Date2",inplace=True)</div></code>
-
+```
+netflix_stock["Date2"] = [dt.strptime(i, "%b %d,  %Y") for i in netflix_stock["Date"]]
+netflix_stock.set_index("Date2",inplace=True)
+```
 <img src="https://github.com/Kattsun2525/stat386-projects/raw/main/assets/images/date_column.png" alt="" style="width:100px;"/>
 
 <br>
