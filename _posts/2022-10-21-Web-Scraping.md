@@ -25,16 +25,14 @@ For the first step, we need to check if scraping data off the website we am goin
 ## Step2: Data collection
 For data collection, I used requests.get and pd.read_html() functions. After downloading pandas, you will be able to read tables from a website by passing the URL to the read_html function.
 
-<div id="container">
-   <code> 
-   import pandas as pd</div>
-   <div>import requests</div>
-   <div>url_link='https://finance.yahoo.com/quote/NFLX/history?period1=1350777600&period2=1666310400&interval=1wk&filter=history&frequency=1wk&includeAdjustedClose=true'</div>
-   <div>r = requests.get(url_link,headers = {'User-Agent':'Mozilla/5.0'})</div>
-   <div>netflix_stock = pd.read_html(r.text)[0]</div>
-   <div>netflix_stock = netflix_stock.drop(netflix_stock.index[[100, 201, 302, 382, 403, 504, 528]])
-   </code>
-</div>
+```    
+import pandas as pd</div>
+<div>import requests</div>
+<div>url_link='https://finance.yahoo.com/quote/NFLX/history?period1=1350777600&period2=1666310400&interval=1wk&filter=history&frequency=1wk&includeAdjustedClose=true'</div>
+<div>r = requests.get(url_link,headers = {'User-Agent':'Mozilla/5.0'})</div>
+<div>netflix_stock = pd.read_html(r.text)[0]</div>
+<div>netflix_stock = netflix_stock.drop(netflix_stock.index[[100, 201, 302, 382, 403, 504, 528]])
+```
 
 <p>What is tricky about getting stock data from the Yahoo Finance website is that it does not allow us to retrieve the whole chart at one time. Instead, I had to adjust the data range to get a comprehensive list of stock quotes from a different webpage.
 For this reason, I had to change the URL slightly each time I scraped a part of the whole list from the website. Luckily, the only part of the URL that I needed to change were the numbers highlighted below. However, the numbers were not in chronological order so I needed to manually type in the specific numbers that corresponded to the web page. For example, some of the URL number sequences would change by 60220800, 59875200 or 60480000. Everything else stays the same for each URL.</p>
@@ -43,33 +41,31 @@ For this reason, I had to change the URL slightly each time I scraped a part of 
 
 Below is an excerpt of the for-loop I used to get data from each page. I specified the value of the number decrease from page to page and combined it with the rest of the URL. Then, I used the append function to add the new data to my dataframe by running the last line of code below:
 
-<div> ... </div>
-<div class="highlight">
- <code> 
-  <div>url_bef_num = 'https://finance.yahoo.com/quote/NFLX/history?period1=1350777600&period2='</div>
-  <div>url_aft_num = '&interval=1wk&filter=history&frequency=1wk&includeAdjustedClose=true'</div>
-  <div>num = 1666310400</div>
 
-  <div>for i in range(2,7):</div>
-      # For the second page of stock quotes, the number before '&interval' in the URL increases by 60220800
-      if i == 2:
-          num = num - 60220800
-          print("i is 2")
-      # For the fifth page of stock quotes, the number before '&interval' in the URL increases by 59875200
-      elif i == 5:
-          num = num - 59875200
-          print("i is 5")
-      # For the other n-th page of stock quotes, the number before '&interval' in the URL increases by 60480000
-      else:
-          num = num - 60480000
-          print("i is else")
+```
+url_bef_num = 'https://finance.yahoo.com/quote/NFLX/history?period1=1350777600&period2='</div>
+url_aft_num = '&interval=1wk&filter=history&frequency=1wk&includeAdjustedClose=true'</div>
+num = 1666310400</div>
 
-      url_link = url_bef_num + str(num) + url_aft_num
-      r = requests.get(url_link,headers = {'User-Agent':'Mozilla/5.0'})
-      print(url_link)
-      netflix_stock = netflix_stock.append(pd.read_html(r.text)[0], ignore_index=True)
- </code>
-</div>
+for i in range(2,7):</div>
+    # For the second page of stock quotes, the number before '&interval' in the URL increases by 60220800
+    if i == 2:
+        num = num - 60220800
+        print("i is 2")
+    # For the fifth page of stock quotes, the number before '&interval' in the URL increases by 59875200
+    elif i == 5:
+        num = num - 59875200
+        print("i is 5")
+    # For the other n-th page of stock quotes, the number before '&interval' in the URL increases by 60480000
+    else:
+        num = num - 60480000
+        print("i is else")
+
+    url_link = url_bef_num + str(num) + url_aft_num
+    r = requests.get(url_link,headers = {'User-Agent':'Mozilla/5.0'})
+    print(url_link)
+    netflix_stock = netflix_stock.append(pd.read_html(r.text)[0], ignore_index=True)
+```
  
 Below are the first five entries of the resulting table:
 
