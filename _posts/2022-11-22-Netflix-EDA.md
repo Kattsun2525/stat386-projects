@@ -19,15 +19,16 @@ We have downloaded the daily stock prices data using the Yahoo finance API funct
 - Close: The price of the stock when the market closed 
 - Volume: The total amount of stocks traded on that day
 - Date (index column) : Stock trade date from October 22th in 2012 to October 17th in 2022.
+
 <img src="https://github.com/Kattsun2525/stat386-projects/raw/main/assets/images/Picture0.png" alt="" style="width:300px;"/>
 
 
 # Exploratory Data Analysis
 The below is a basic summary of the dataset you can get by using describe() function:
 <img src="https://github.com/Kattsun2525/stat386-projects/raw/main/assets/images/Picture1.png" alt="" style="width:800px;"/>
-
+<p></p>
 While this summary chart is helpful for us to get a general sense of Netflix stock data on the entire timeframe, it is not very informative as the behavior of the data changes from time to time depending on the company performance and its surrounding environments. So, we will have to dissect data in certain periods of time to draw specific insights.
-
+<p></p>
 <img src="https://github.com/Kattsun2525/stat386-projects/raw/main/assets/images/Picture2.png" alt="" style="width:800px;"/>
 
 This stock price history chart shows that the stock price has steadily increased for almost 10 years since October in 2012, although it fluctuated quite a bit in 2018 and 2019. Their stock price even increased by roughly $300 from around March 2020 to November 2021 and peaked at $700. However, there was a steep decline in the stock quote soon after. 
