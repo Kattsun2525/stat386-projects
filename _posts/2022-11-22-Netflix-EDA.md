@@ -25,6 +25,9 @@ We have downloaded the daily stock prices data using the Yahoo finance API funct
 
 # Exploratory Data Analysis
 The below is a basic summary of the dataset you can get by using describe() function:
+```
+netflix_stock.describe()
+```
 <img src="https://github.com/Kattsun2525/stat386-projects/raw/main/assets/images/Picture1.png" alt="" style="width:500px;"/>
 <p></p>
 While this summary chart is helpful for us to get a general sense of Netflix stock data on the entire timeframe, it is not very informative as the behavior of the data changes from time to time depending on the company performance and its surrounding environments. So, we will have to dissect data in certain periods of time to draw specific insights.
@@ -49,6 +52,9 @@ One might say that investors were too optimistic about Netflix’s future prospe
 Next, I am going to find out the distribution of the percent changes in stock price compared to the previous week. The code I used to create the chart is as follows:
 
 I simply divided the stock closing price by the previous one and subtracted the result by 1. So, if you have -0.2, that means the week’s stock closing price decreased by 20% from the previous week.
+```
+netflix_stock['Volitality'] = (netflix_stock['Close']/netflix_stock['Close'].shift(1)) - 1
+```
 <p></p>
 <img src="https://github.com/Kattsun2525/stat386-projects/raw/main/assets/images/Picture5.png" alt="" style="width:600px;"/>
 
