@@ -60,7 +60,7 @@ I simply divided the stock closing price by the previous one and subtracted the 
 
 The histogram looks normal around 0.0 which means no change. However, we need to take into account that even a small percentage change could result in a big price difference. So, if the previous price is a very large number, the change is huge. For example, on July 13th, the percent change was -10% compared to the previous week, but the total change was almost $55 in a day because the previous closing price was $548.
 <p></p>
-<img src="https://github.com/Kattsun2525/stat386-projects/raw/main/assets/images/Picture6.png" alt="" style="width:400px;"/>
+<img src="https://github.com/Kattsun2525/stat386-projects/raw/main/assets/images/Picture6.png" alt="" style="width:500px;"/>
 
 # Conclusion
 In this blog, we have explored the Netflix stock price data to gain an understanding of the data and get insights into how we can proceed to the following analyses. Netflix has seen a tremendous growth, especially during COVID-19 but has been struggling following the pandemic. The potential causes of the declining stock price would be more increased outdoor  activities and threat of new entrants like Disney+. We also saw that investors reacted to the stock price negatively in the volume analysis.
