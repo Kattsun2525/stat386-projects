@@ -11,7 +11,7 @@ In my previous post, I explained how I gathered all the weekly Netflix stock quo
 In this blog, we start exploring the data to observe if it exhibits any patterns and abnormalities. As a quick reminder, the goal of this stock data analysis project is to understand how Netflix has performed in the past based on its historical stock quotes. Despite the fact the company has seen a tremendous growth in the last 10 years, the company has struggled due to external factors such as declining leisure time at home after COVID-19 and internal problems like account sharing issues. I am looking forward to helping you understand Netflix’s stock situation based on my EDA in this blog.
 
  
-# Quick recap of Netflix dataset
+<h1>Quick recap of Netflix dataset</h1>
 We have downloaded the daily stock prices data using the Yahoo finance API functionality. The dataset includes the following variables:
 - Open: The price of the stock when the market opened
 - High: Highest stock price traded during that day
@@ -19,7 +19,7 @@ We have downloaded the daily stock prices data using the Yahoo finance API funct
 - Close: The price of the stock when the market closed 
 - Volume: The total amount of stocks traded on that day
 - Date (index column) : Stock trade date from October 22th in 2012 to October 17th in 2022.
-<img src="https://github.com/Kattsun2525/stat386-projects/raw/main/assets/images/Picture0.png" alt="" style="width:800px;"/>
+<img src="https://github.com/Kattsun2525/stat386-projects/raw/main/assets/images/Picture0.png" alt="" style="width:300px;"/>
 
 
 # Exploratory Data Analysis
