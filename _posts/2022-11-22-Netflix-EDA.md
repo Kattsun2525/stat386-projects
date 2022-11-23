@@ -53,7 +53,7 @@ Next, I am going to find out the distribution of the percent changes in stock pr
 
 I simply divided the stock closing price by the previous one and subtracted the result by 1. So, if you have -0.2, that means the week’s stock closing price decreased by 20% from the previous week.
 ```
-netflix_stock['Volitality'] = (netflix_stock['Close']/netflix_stock['Close'].shift(1)) - 1
+(netflix_stock['Close']/netflix_stock['Close'].shift(1)) - 1
 ```
 <p></p>
 <img src="https://github.com/Kattsun2525/stat386-projects/raw/main/assets/images/Picture5.png" alt="" style="width:600px;"/>
