@@ -56,3 +56,4 @@ As a next step, I will conduct more of qualitative analyses to understand the re
 Please let me know if you have any questions or thoughts on this blog content. I would really appreciate any feedback.
 
 Here is my [repository]([https://github.com/Kattsun2525/Web_scraping_project)) for this exploratory data analysis.
+
