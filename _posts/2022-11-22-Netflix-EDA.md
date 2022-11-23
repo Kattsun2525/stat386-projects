@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title:  "Exploring Netflix stock data over the past decade"
