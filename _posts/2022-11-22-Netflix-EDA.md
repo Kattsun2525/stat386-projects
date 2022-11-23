@@ -20,7 +20,7 @@ We have downloaded the daily stock prices data using the Yahoo finance API funct
 - Volume: The total amount of stocks traded on that day
 - Date (index column) : Stock trade date from October 22th in 2012 to October 17th in 2022.
 
-# EDA
+# Exploratory Data Analysis
 The below is a basic summary of the dataset you can get by using describe() function:
 <img src="https://github.com/Kattsun2525/stat386-projects/raw/main/assets/images/Picture1.png" alt="" style="width:800px;"/>
 
