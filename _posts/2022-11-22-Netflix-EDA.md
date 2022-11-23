@@ -6,7 +6,7 @@ author: Katsuhiko Maeda
 description: This blog shows how to conduct EDA on the Netflix’s stock data I gathered in my previous blog post.
 image: /assets/images/header_netflix_pic.png
 ---
-In my previous post, I explained how I gathered all the weekly Netflix stock quotes from October 22nd in 2012 to today using Yahoo Finance API and cleaned the data for following analysis procedures. Please follow this [link]([https://github.com/Kattsun2525/Web_scraping_project](https://kattsun2525.github.io/stat386-projects/2022/10/21/Web-Scraping.html)) if you are interested in the tutorial. 
+In my previous post, I explained how I gathered all the weekly Netflix stock quotes from October 22nd in 2012 to today using Yahoo Finance API and cleaned the data for following analysis procedures. Please follow this [link](https://kattsun2525.github.io/stat386-projects/2022/10/21/Web-Scraping.html) if you are interested in the tutorial. 
 
 In this blog, we start exploring the data to observe if it exhibits any patterns and abnormalities. As a quick reminder, the goal of this stock data analysis project is to understand how Netflix has performed in the past based on its historical stock quotes. Despite the fact the company has seen a tremendous growth in the last 10 years, the company has struggled due to external factors such as declining leisure time at home after COVID-19 and internal problems like account sharing issues. I am looking forward to helping you understand Netflix’s stock situation based on my EDA in this blog.
 
@@ -55,5 +55,4 @@ As a next step, I will conduct more of qualitative analyses to understand the re
 
 Please let me know if you have any questions or thoughts on this blog content. I would really appreciate any feedback.
 
-Here is my [repository]([https://github.com/Kattsun2525/Web_scraping_project)) for this exploratory data analysis.
-
+Here is my [repository](https://github.com/Kattsun2525/Web_scraping_project) for this exploratory data analysis.
