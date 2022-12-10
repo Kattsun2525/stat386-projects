@@ -13,15 +13,15 @@ A while ago, I read news articles which mentioned how Netflix has lost many subs
 #	Data Story
 To answer my original questions in my project, I decided to use Netflix’s stock price as a measurement of their earning potential and future viability. The graph below shows the stock price and the total volume of stocks traded in a day over the past decade.
 <p></p>
-Netflix had experienced a steady growth from 2013 until pre-COVID. Then the stock price soared by roughly $350 in the midst of COVID-19, which is almost double their pre-COVID price. This growth was facilitated by COVID-19 as people had more leisure time at home and signed up for Netflix. However, the stock price dropped by 71% and reached $200. We can see that the investors reacted negatively to this drop as the transaction volume increased during that time. OOO. This most likely contributed to lowering the price even further. As of now, the stock is on an upward trend but has not recovered to the pre-COVID price. 
+Netflix had experienced a steady growth from 2013 until pre-COVID. Then the stock price soared by roughly $350 in the midst of COVID-19, which is almost double their pre-COVID price. This growth was facilitated by COVID-19 as people had more leisure time at home and signed up for Netflix. However, the stock price dropped by 71% and reached $200. We can see that the investors reacted negatively to this drop as the transaction volume increased during that time. This most likely contributed to lowering the price even further. As of now, the stock is on an upward trend but has not recovered to the pre-COVID price. 
 <p></p>
 <img src="https://github.com/Kattsun2525/stat386-projects/raw/main/assets/images/story_pic.png" alt="" style="width:600px;"/>
 
 # Conclusion
-In this blog, we have explored the Netflix stock price data to gain an understanding of the data and get insights into how we can proceed to the following analyses. Netflix has seen a tremendous growth, especially during COVID-19 but has been struggling following the pandemic. The potential causes of the declining stock price would be more increased outdoor  activities and threat of new entrants like Disney+. We also saw that investors reacted to the stock price negatively in the volume analysis.
+Despite Netflix’s remarkable growth in the past, their business currently in in a tough spot. The stock price was highly overvalued at the time of their growth during COVID-19. And the investors are doubtful of their future viability due to the increasing competition in the market and their account-sharing problems. Without major improvements in their services and fixing the account-sharing problem, it seems difficult to bring back their growth. 
 <p></p>
-As a next step, I will conduct more of qualitative analyses to understand the reasons behind  the changes in the stock prices and see how they compare against their competitors. I am also going to search for methods to predict future stock prices. Stay tuned for my next blog post.
+Please let me know in the comments below your take on Netflix’s future earning potentials or any questions you might have about this project.
 <p></p>
 Please let me know if you have any questions or thoughts on this blog content. I would really appreciate any feedback.
 <p></p>
-Here is my [repository](https://github.com/Kattsun2525/Web_scraping_project) for this exploratory data analysis.
+Here is the link to the [repository](https://github.com/Kattsun2525/Web_scraping_project) for this project.
