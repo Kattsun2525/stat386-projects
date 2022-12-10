@@ -3,7 +3,7 @@ layout: post
 title:  "Netflix's Struggles in the Streaming Wars"
 date:   2022-12-8
 author: Katsuhiko Maeda
-description: Key findings on Netflix's historical stock quotes and the investors reaction 
+description: Key findings on Netflix's historical stock quotes and the investors reaction to a recent steep drop in subscribers
 image: /assets/images/Data_Story_Top.jpg
 ---
 
