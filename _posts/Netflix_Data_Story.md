@@ -7,8 +7,8 @@ description: Netflix data story.
 image: /assets/images/header_netflix_pic.png
 ---
 
-#	Introduction/Quick project recap
-A while ago, I read news articles which mentioned how Netflix has lost many subscribers as COVID-19 faded away and is currently facing many challenges like new competitors and account-sharing problems. This led me to question what their current standing is in comparison to the last decade and how investors reacted to the recent drop in subscribers. I decided to take this project as an opportunity to answer those questions. In my previous posts, I talked about the data collecting, cleaning, and exploring steps. Please check those blogs if you are interested in the topics. This blog focuses on the important key takeaways to answer my original research questions based on the dataset. (focuses on answering)
+#	Quick project recap
+A while ago, I read news articles which mentioned how Netflix has lost many subscribers as COVID-19 faded away and is currently facing many challenges like new competitors and account-sharing problems. This led me to question what their current standing is in comparison to the last decade and how investors reacted to the recent drop in subscribers. I decided to take this project as an opportunity to answer those questions. In my previous posts, I talked about the data collecting, cleaning, and exploring steps. Please check those blogs if you are interested in the topics. This blog focuses on the important key takeaways to answer my original research questions based on the dataset.
 
 #	Data Story/Key takeaways
 To answer my original questions in my project, I decided to use Netflix’s stock price as a measurement of their earning potential and future viability. The graph below shows the stock price and the total volume of stocks traded in a day over the past decade.
