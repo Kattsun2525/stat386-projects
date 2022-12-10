@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "Netflix Data Story"
+title:  "Netflix's Struggles in the Streaming Wars"
 date:   2022-12-8
 author: Katsuhiko Maeda
-description: Netflix data story.
+description: Key findings on Netflix's historical stock quotes and the market reaction 
 image: /assets/images/header_netflix_pic.png
 ---
 
