@@ -22,6 +22,4 @@ Despite Netflix’s remarkable growth in the past, their business currently in i
 <p></p>
 Please let me know in the comments below your take on Netflix’s future earning potentials or any questions you might have about this project.
 <p></p>
-Please let me know if you have any questions or thoughts on this blog content. I would really appreciate any feedback.
-<p></p>
 Here is the link to the [repository](https://github.com/Kattsun2525/Web_scraping_project) for this project.
