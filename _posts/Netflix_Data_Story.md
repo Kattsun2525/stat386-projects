@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "Exploring Netflix stock data over the past decade"
-date:   2022-11-22
+title:  "Netflix Data Story"
+date:   2022-12-8
 author: Katsuhiko Maeda
-description: This blog shows how to conduct EDA on the Netflix’s stock data I gathered in my previous blog post.
+description: Netflix data story.
 image: /assets/images/header_netflix_pic.png
 ---
 In my previous post, I explained how I gathered all the weekly Netflix stock quotes from October 22nd in 2012 to today using Yahoo Finance API and cleaned the data for following analysis procedures. Please follow this [link](https://kattsun2525.github.io/stat386-projects/2022/10/21/Web-Scraping.html) if you are interested in the tutorial. 
