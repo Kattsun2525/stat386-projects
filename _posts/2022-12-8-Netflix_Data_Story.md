@@ -4,7 +4,7 @@ title:  "Netflix's Struggles in the Streaming Wars"
 date:   2022-12-8
 author: Katsuhiko Maeda
 description: Key findings on Netflix's historical stock quotes and the investors reaction 
-image: /assets/images/Data_Exploration.jpg
+image: /assets/images/Data_Story_Top.jpg
 ---
 
 #	Quick project recap
